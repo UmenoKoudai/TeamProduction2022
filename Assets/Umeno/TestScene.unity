@@ -216,7 +216,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &493850789
 MonoBehaviour:
@@ -420,60 +420,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3458053885515501613
+--- !u!1001 &370897937668844072
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588976, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
+      propertyPath: m_Name
+      value: LaserTest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -51.715797
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
-      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.05394
+      objectReference: {fileID: 0}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.008130003
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0077452566
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6897246
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7239848
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 87.224
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070868, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+    - target: {fileID: 569298850708588977, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -178.713
-      objectReference: {fileID: 0}
-    - target: {fileID: 3458053883844070875, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
-      propertyPath: m_Name
-      value: BossLaserTest1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f113d373b8efc334dae6853ef0fcafc9, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2a9540d4a6ab4f8448c65eb785720a53, type: 3}
