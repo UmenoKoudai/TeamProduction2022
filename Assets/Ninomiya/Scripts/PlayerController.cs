@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float _jumppower;//Player‚ÌƒWƒƒƒ“ƒv—Í
     bool _canjump = true;
     [SerializeField] int _hp;
+    [SerializeField] GameObject _baria;
+    [SerializeField] float _bariatime;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,10 @@ public class PlayerController : MonoBehaviour
         {
             y = _jumppower;
             _rb.velocity = Vector3.up * _jumppower;
+        }
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            StartCoroutine("Baria");
         }
     }
     private void FixedUpdate()
@@ -47,5 +53,13 @@ public class PlayerController : MonoBehaviour
     {
         _canjump = false;
         Debug.Log("false‚Å‚·");
+    }
+    IEnumerator Baria()
+    {
+        _baria.SetActive(true);
+
+        yield return new WaitForSeconds(_bariatime);
+
+        _baria.SetActive(false);
     }
 }

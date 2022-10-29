@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public int _score;
     // Start is called before the first frame update
     void Start()
     {
